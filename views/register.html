@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rugby World Cup - 2023</title> <!-- Title of the Website -->
+    <link rel="stylesheet" href="/css/layout.css"> <!-- Links the layout style css to the html -->
+    <link rel="stylesheet" href="/css/main_styles.css"> <!-- Links the main style css to the html -->
+    <link rel="stylesheet" href="/css/header-footer.css"> <!--Links the header & footer css to the html-->
+    <link rel="stylesheet" href="/css/team-colors.css"> <!-- Links the team color css to the html -->
+</head>
+
+<body>
+    
+    <!-- Top Nav Bar -->
+
+    <div class="top-nav"> <!-- Start of Top Nav -->
+        <a class="pl fwb" href="/">RWC 2023</a> <!-- RWC 2023 - Hyperlink -->
+        <div class="nav-right"> <!-- Start of Nav Right -->
+            <a class="pr fwb" href="/register">Register</a> <!-- Register - Hyperlink -->
+            <a class="pr fwb" href="/login">Login</a> <!-- Login - Hyperlink -->
+        </div> <!-- End of Nav Right -->
+    </div> <!-- End of Top Nav -->
+
+    <!--Image Header -->
+
+    <div class="image-header"> <!--Start of Image Header -->
+        <h1 class="pl">Rugby World Cup - France 2023</h1> <!-- Heading Text on Image -->
+    </div> <!-- End of Image Header -->
+
+      <!-- Filter Bar -->
+
+    <div class="filter-bar"></div> <!-- Filter Bar -->
+
+    <div class="main-container">
+        <div class="form-container"> <!-- Start of Form Container -->
+            <form action="/register" class="register-form" method="post"> <!-- Start of Form -->
+                <header>Register</header> <!-- Header -->
+                <div class="form-items"> <!-- Start of Form Items -->
+                    <div class="form-group mb-20"> <!-- Start of Form Group Username -->
+                        <label for="username">Username:</label> <!-- Username Label -->
+                        <input type="text" name="username" id="username"> <!-- Username Input -->
+                    </div> <!-- End of Form Group Username -->
+                    <div class="form-group mb-20"> <!-- Start of Form Group Password -->
+                        <label for="password">Password:</label> <!-- Password Label -->
+                        <input type="password" name="password" id="password"> <!-- Password Input -->
+                    </div> <!-- End of Form Group Password -->
+                    <div id="response"></div> <!-- Response -->
+                    <div class="button-container form-group">  <!-- Start of Button Container & Form Group -->
+                        <button class="r-btn" type="submit">REGISTER</button> <!-- Register Button-->
+                    </div> <!-- End of Button Container & Form Group -->
+                </div> <!-- End of Form Items -->
+            </form> <!-- End of Form -->
+        </div> <!-- End of Form Container -->
+    </div>
+    <!-- Footer -->
+
+    <div class="footer-section pl"> <!-- Start of Footer Section -->
+        <h4>Created by Caleb King</4> <!-- Footer Text -->
+    </div> <!-- End of Footer Section -->
+
+    <script src="/js/register.js"></script>
+
+</body>
+</html>
