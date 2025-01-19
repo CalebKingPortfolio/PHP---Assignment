@@ -1,0 +1,83 @@
+/* Top Nav */
+.top-nav {
+    height: 38px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+/* Image Header */
+.image-header {
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    height: 180px;
+    display: flex;
+    align-items: center;
+}
+
+/* Filter Bar */
+.filter-bar {
+    height: 38px;
+    background-color: #DFDFDF;
+}
+
+/* Search Container */
+.search-container {
+    position: absolute;
+    left: 600px;
+}
+
+/* Main Grid */
+.main-grid {
+    width: 1440px;
+    margin: 16px auto 16px auto;
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    gap: 14px;
+}
+
+/* Team List */
+.team-list {
+    padding: 14px 0px 15px 15px;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    border-bottom: none;
+}
+
+/* Teams Menu */
+.teams-menu {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 9.8px;
+}
+
+/* Player Grid */
+.player-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 14px;
+}
+
+/* Player & Coach Container */
+.player-container, .coach-container  {
+    width: 165px;
+}
+
+/* Image Div */
+.img-div {
+    width: 163px;
+    height: 140.5px;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    border-bottom: none;
+}
+
+/* Footer Section */
+.footer-section {
+    height: 38px;
+    background-color: #DFDFDF;
+    display: flex;
+    align-items: center;
+}
+

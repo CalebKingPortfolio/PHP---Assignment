@@ -1,0 +1,201 @@
+/* Removes default margins & padding on elements */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Turns all text items to Inter */
+p, h1, h2, h3, h4, h5, a, button {
+    font-family: 'Inter', sans-serif;
+}
+  
+  /* Removes text decoration */
+a {
+    text-decoration: none;
+}
+  
+/* Padding Left */
+.pl {
+    padding: 0px 0px 0px 16px; 
+}
+  
+  /* Padding Right */
+.pr {
+    padding: 0px 16px 0px 0px;
+}
+  
+  /* Font Weight Bold */
+.fwb  {
+    font-weight: bold;
+}
+
+/* Top Nav Hyperlinks */
+.top-nav a {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/* Search Bar */
+#search-bar {
+    height: 36px;
+    width: 300px;
+    font-size: 16px;
+    padding-left: 5px;
+    border: 1px solid #e5e5e5;
+    border-right: none;
+    float: left;
+    outline: none;
+}
+
+/* Search Button */
+#search-button {
+    height: 38px;
+    width: 38px;
+    border: none;
+    border-left: none;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+/* Search Button Hover*/
+#search-button:hover {
+    cursor: pointer;
+    background-color: #242424;
+}
+
+/* Position Select */
+#position-select {
+    width: 165px;
+    height: 38px;
+    padding-left: 8px;
+    left: 11px;
+    position: relative;
+    font-size: 16px;
+    border: 1px solid #e5e5e5;
+}
+
+ /* List inside team menu */
+ .teams-menu li {
+    list-style-type: none;
+}
+
+/* Image Size */
+.img-div img {
+    width: inherit;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.main-container {
+    height: 669px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.register-form header, .login-form header {
+    padding: 15px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+.register-form header {
+    background-color: #cbd094;
+}
+
+.login-form header {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.register-form, .login-form {
+    border: solid 1px #a9a9a9;
+}
+
+.form-group {
+    display: grid;
+    padding: 0px 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.form-group input {
+    width: 300px;
+    height: 35px;
+    font-size: 16px;
+}
+
+.button-container{
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.r-btn, .l-btn {
+    background-color: #000000;
+    padding: 6px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+} 
+
+.r-btn:hover, .l-btn:hover {
+    cursor: pointer;
+ }
+
+
+.form-items {
+    padding: 15px 0px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+
+#response {
+    color: red;
+    text-align: center;
+    font-size: 13px;
+}
+
+
+.nav-red{
+    background-color: #ff0000;
+}
+
+
+.player-postion {
+    width: 80%;
+    text-align: center;
+}
+
+.fa-edit {
+    color: #216a20;
+}
+
+.fa-trash {
+    color: #e03739;
+}
+
+.fa-edit:hover, .fa-trash:hover {
+    cursor: pointer;
+}
+
+.close:hover {
+    cursor: pointer;
+}
+
